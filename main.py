@@ -205,7 +205,7 @@ API_DOCS_HTML = """<!doctype html>
       <header>
         <h1>demo_mello_api — API Documentation</h1>
         <p>
-          Base URL: <span class="kbd">https://new-mello-backend.thankfuldesert-772ce932.westus.azurecontainerapps.io</span> (default).
+          Base URL: <span class="kbd">https://demo-mello.thankfuldesert-772ce932.westus.azurecontainerapps.io</span> (default).
           All requests/responses are JSON unless stated otherwise.
         </p>
         <p class="small">
@@ -255,7 +255,7 @@ API_DOCS_HTML = """<!doctype html>
   "email": "test@example.com"
 }</code></pre>
               <p class="small">Example curl (Windows):</p>
-              <pre><code>curl -X POST https://new-mello-backend.thankfuldesert-772ce932.westus.azurecontainerapps.io/check-email ^
+              <pre><code>curl -X POST https://demo-mello.thankfuldesert-772ce932.westus.azurecontainerapps.io/check-email ^
   -H "Content-Type: application/json" ^
   -d "{\\\"email\\\":\\\"test@example.com\\\"}"</code></pre>
             </div>
@@ -293,7 +293,7 @@ API_DOCS_HTML = """<!doctype html>
   "confirm_password": "secret"
 }</code></pre>
               <p class="small">Example curl (Windows):</p>
-              <pre><code>curl -X POST https://new-mello-backend.thankfuldesert-772ce932.westus.azurecontainerapps.io/signup ^
+              <pre><code>curl -X POST https://demo-mello.thankfuldesert-772ce932.westus.azurecontainerapps.io/signup ^
   -H "Content-Type: application/json" ^
   -d "{\\\"email\\\":\\\"test@example.com\\\",\\\"password\\\":\\\"secret\\\",\\\"confirm_password\\\":\\\"secret\\\"}"</code></pre>
             </div>
@@ -341,7 +341,7 @@ API_DOCS_HTML = """<!doctype html>
   "password": "secret"
 }</code></pre>
               <p class="small">Example curl (Windows):</p>
-              <pre><code>curl -X POST https://new-mello-backend.thankfuldesert-772ce932.westus.azurecontainerapps.io/login ^
+              <pre><code>curl -X POST https://demo-mello.thankfuldesert-772ce932.westus.azurecontainerapps.io/login ^
   -H "Content-Type: application/json" ^
   -d "{\\\"email\\\":\\\"test@example.com\\\",\\\"password\\\":\\\"secret\\\"}"</code></pre>
             </div>
@@ -376,7 +376,7 @@ API_DOCS_HTML = """<!doctype html>
   "email": "test@example.com"
 }</code></pre>
               <p class="small">Example curl (Windows):</p>
-              <pre><code>curl -X POST https://new-mello-backend.thankfuldesert-772ce932.westus.azurecontainerapps.io/logout ^
+              <pre><code>curl -X POST https://demo-mello.thankfuldesert-772ce932.westus.azurecontainerapps.io/logout ^
   -H "Content-Type: application/json" ^
   -d "{\\\"email\\\":\\\"test@example.com\\\"}"</code></pre>
             </div>
