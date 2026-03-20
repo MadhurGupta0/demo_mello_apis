@@ -1,5 +1,5 @@
 
-name: demo Mello backend
+name: Demo Mello backend
 
 on:
   push:
